@@ -23,3 +23,18 @@ The application currently includes sample players:
 Install dependencies:
 ```bash
 npm install
+Start the development server:
+
+npm run dev
+## Project Structure
+
+```text
+src/
+App.svelte
+ app.css
+main.js
+components/
+ PlayerManagement.svelte
+ TournamentManagement.svelte
+ MatchManagement.svelte
+ Ranking.svelte
